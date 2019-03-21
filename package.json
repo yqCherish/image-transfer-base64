@@ -1,0 +1,34 @@
+{
+  "name": "image-transfer-base64",
+  "version": "0.0.1",
+  "description": "图片转base64的工具（包括本地上传的图片、远程的图片，以及amazon s3无法跨域拉取的图片）",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack --mode production",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yqCherish/image-transfer-base64.git"
+  },
+  "keywords": [
+    "transfer-base64"
+  ],
+  "author": "https://github.com/yqCherish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yqCherish/image-transfer-base64/issues"
+  },
+  "homepage": "https://github.com/yqCherish/image-transfer-base64#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
